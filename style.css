@@ -14,7 +14,7 @@ html{
 }
 
 body{
-  background-color:  rgb(77, 74, 74);
+  background-color: rgba(53, 46, 53, 0.747);
   font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -23,15 +23,11 @@ body{
 .nav{
   text-align: center;
   list-style: none;
-  background-color: tomato;
+  background-color: rgb(27, 6, 2);
   padding: 1rem;
   text-align: end;
   position: relative;
-  background-image: url('../Desafío2/logo.png');
-  background-repeat: no-repeat;
-  background-position-x: left;
-  background-size: 7%;
-  
+ 
 }
 
 li{
@@ -40,6 +36,7 @@ li{
 }
 
  a{
+  color: white;
   text-decoration: none;
   margin: 1rem;
   display: inline-block;
@@ -48,7 +45,7 @@ li{
 }
 
 li:hover{
-  background-color: rgb(219, 148, 219);
+  background-color: rgb(131, 5, 68);
   transition: 0.2s linear;
   padding: 0.5rem;
   background-size: 8%;
@@ -60,6 +57,8 @@ li:hover{
 main{
   height: 40rem;
   position: static;
+  font-size: 2rem;
+  text-align: justify;
 }
 
 .ads{
@@ -67,24 +66,45 @@ main{
   display: inline-block;
   height:100%;
   padding: 10px;
-  background-color: royalblue;
+  background-color: rgb(50, 52, 58);
+}
+
+.title{
+  position: relative;
+  display: inline-block;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  color: rgb(88, 83, 75);
 }
 
 .images{
-  display: grid;
+  display: inline-grid;
+}
+
+img{
+  margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 .content{
-  position: relative;
+  position: absolute ;
   display: inline-block;
-  padding: 10px;
+  padding: 1rem;
   position: absolute;
-  left: 4.5rem;
+  left: 12rem;
+}
+
+.one, .two, .three, .four{
+  display: inline-block;
+  padding: 20px;
+  background-color: rgb(44, 39, 39);
 }
 
 footer{
   position: absolute;
-  background-color: rgb(255, 251, 251);
+  background-color: rgb(13, 14, 15);
   text-align: center;
   width: 100%;
   bottom: 0rem;
